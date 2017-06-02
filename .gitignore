@@ -1,4 +1,4 @@
-
+# Project related
 *.swp
 *~
 *.iml
@@ -6,6 +6,7 @@
 .DS_Store
 .idea
 dist
+coverage
 
 # Logs
 logs
