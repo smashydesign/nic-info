@@ -59,6 +59,7 @@ In lieu of a formal style guide, take care to maintain the existing coding style
 If you find any please raise an Issue. Pull requests are welcome.
 
 ## Release History
+- 0.1.0 Initial release
 
 ## License
 MIT
