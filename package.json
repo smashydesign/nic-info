@@ -1,10 +1,10 @@
 {
-  "name": "nic-info",
+  "name": " nic-info",
   "version": "0.0.1",
   "description": "A simple module to get information such as gender and birthday by providing Sri Lanka National Identity Card",
   "main": "index.js",
   "scripts": {
-    "prepublish": "./scripts/prepublish.sh",
+    "prepublish": ". ./scripts/prepublish.sh",
     "lint": "eslint ./src",
     "lintfix": "eslint ./src --fix",
     "testonly": "jest --coverage",
