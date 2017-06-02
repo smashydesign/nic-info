@@ -74,6 +74,5 @@ export const nicInfo = (nicNo) => {
   } else {
     _return = oldIDFormat(nicNo);
   }
-
   return _return;
 };

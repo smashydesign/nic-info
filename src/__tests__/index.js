@@ -46,34 +46,41 @@ describe('Old NIC ID', () => {
 
 describe('New NIC ID [Experimental]', () => {
   test('should return information object', () => {
-    expect(nicInfo('198534099999')).not.toBeNull();
+    expect(nicInfo('201634099999')).not.toBeNull();
+    expect(nicInfo('201675199999')).not.toBeNull();
   });
 
   describe('Gender', () => {
     test('should return correct Gender Type', () => {
-      expect(nicInfo('198534099999').gender.type).toEqual('M');
+      expect(nicInfo('201634099999').gender.type).toEqual('M');
+      expect(nicInfo('201675199999').gender.type).toEqual('F');
     });
 
     test('should return correct Gender Label', () => {
-      expect(nicInfo('198534099999').gender.label).toEqual('Male');
+      expect(nicInfo('201634099999').gender.label).toEqual('Male');
+      expect(nicInfo('201675199999').gender.label).toEqual('Female');
     });
   });
 
   describe('Birthday', () => {
     test('should return correct Birth Year', () => {
-      expect(nicInfo('198534099999').birthday.year).toEqual(1985);
+      expect(nicInfo('201634099999').birthday.year).toEqual(2016);
+      expect(nicInfo('201675199999').birthday.year).toEqual(2016);
     });
 
     test('should return correct Birth Month (0 based)', () => {
-      expect(nicInfo('198534099999').birthday.month).toEqual(11);
+      expect(nicInfo('201634099999').birthday.month).toEqual(11);
+      expect(nicInfo('201675199999').birthday.month).toEqual(8);
     });
 
     test('should return correct Birth date', () => {
-      expect(nicInfo('198534099999').birthday.date).toEqual(5);
+      expect(nicInfo('201634099999').birthday.date).toEqual(4); // leap year
+      expect(nicInfo('201675199999').birthday.date).toEqual(6); // leap year
     });
 
     test('should return momentjs object', () => {
-      expect(nicInfo('198534099999').birthday.momentjsObj).not.toBeNull();
+      expect(nicInfo('201634099999').birthday.momentjsObj).not.toBeNull();
+      expect(nicInfo('201675199999').birthday.momentjsObj).not.toBeNull();
     });
   });
 
