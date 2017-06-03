@@ -14,7 +14,7 @@ This module **does support** [new NIC Number](https://en.wikipedia.org/wiki/Nati
 ## Usage
 
 ```javascript
-    var nicInfo = require('nic-info');
+    var nicInfo = require('nic-info').nicInfo;
     var useData = nicInfo('853409999V');
 ```
 
