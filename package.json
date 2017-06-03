@@ -1,6 +1,6 @@
 {
   "name": "nic-info",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple module to get information such as gender and birthday by providing Sri Lanka National Identity Card",
   "homepage": "https://github.com/smashydesign/nic-info#readme",
   "main": "index.js",
