@@ -1,4 +1,4 @@
-# nic-info
+# nic-info [![Build Status](https://travis-ci.org/smashydesign/nic-info.svg?branch=master)](https://travis-ci.org/smashydesign/nic-info) [![npm version](https://badge.fury.io/js/nic-info.svg)](https://badge.fury.io/js/nic-info)
 
 A simple module to get information such as gender and birthday by providing Sri Lanka National Identity Card.
 This module **does support** [new NIC Number](https://en.wikipedia.org/wiki/National_identity_card_(Sri_Lanka)#New_NIC_number) format which was issues from 1st of January 2016.
