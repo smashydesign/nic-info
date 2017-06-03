@@ -1,6 +1,6 @@
 {
   "name": "nic-info",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple module to get information such as gender and birthday by providing Sri Lanka National Identity Card",
   "homepage": "https://github.com/smashydesign/nic-info#readme",
   "main": "index.js",
@@ -28,7 +28,6 @@
   "bugs": {
     "url": "https://github.com/smashydesign/nic-info/issues"
   },
-  "homepage": "https://github.com/smashydesign/nic-info#readme",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
