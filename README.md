@@ -8,7 +8,7 @@ This module **does support** [new NIC Number](https://en.wikipedia.org/wiki/Nati
 ```javascript
     npm install nic-info
     // OR
-    yarn nic-info
+    yarn add nic-info
 ```
 
 ## Usage
