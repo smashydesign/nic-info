@@ -48,7 +48,7 @@ This will lint your code first then it will run unit tests
 1. `yarn lint` - lint your code
 2. `yarn lintfix` - lint your code and fix common issues
 3. `yarn testonly` - run test cases
-4. `test-watch` - run test cases in watch mode
+4. `yarn test-watch` - run test cases in watch mode
 
 ## Contributing
 
@@ -59,7 +59,8 @@ In lieu of a formal style guide, take care to maintain the existing coding style
 If you find any please raise an Issue. Pull requests are welcome.
 
 ## Release History
-- 0.1.0 Initial release
+- 0.0.1 Initial release
+- 0.0.7 Stable release
 
 ## License
 MIT
